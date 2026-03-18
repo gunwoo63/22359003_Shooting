@@ -12,7 +12,7 @@ public class CubeMove : MonoBehaviour
 
         float v = Input.GetAxis("Vertical");
 
-        //Vector3 direct = Vector3.right * h + Vector3.up * v;
+        ////Vector3 direct = Vector3.right * h + Vector3.up * v;
         Vector3 direct = new Vector3(h, v, 0);
 
         //transform.Translate(direct * spd * Time.deltaTime);
